@@ -17,6 +17,7 @@ exports.arraysAnswers = {
       result += arr[i];
       i++;
     }
+    return result;
   },
 
   remove : function(arr, item) {
