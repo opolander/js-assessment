@@ -12,8 +12,8 @@ exports.arraysAnswers = {
 
   sum : function(arr) {
     var total = 0;
-    for (var i in arr) {
-      total += arr[i];
+    for (var i = 0; i < arr.length; i++) {
+      total += +arr[i];
     }
   },
 
