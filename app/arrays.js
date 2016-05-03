@@ -15,6 +15,7 @@ exports.arraysAnswers = {
     for (var i = 0; i < arr.length; i++) {
       total += +arr[i];
     }
+    return total;
   },
 
   remove : function(arr, item) {
