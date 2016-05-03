@@ -11,11 +11,9 @@ exports.arraysAnswers = {
   },
 
   sum : function(arr) {
-    var i = 0;
     var result = 0;
-    while (i < arr.length) {
+    for (var i = 0; i < arr.length; i++) {
       result += arr[i];
-      i++;
     }
     return result;
   },
